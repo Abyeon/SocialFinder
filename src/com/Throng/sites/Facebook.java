@@ -11,7 +11,7 @@ public class Facebook implements WebsiteInterface {
     public String iconURL = null;
     public boolean toggle = true;
 
-    public Result[] Search() {
+    public Result[] Search(String query) {
         ArrayList<Result> Results = new ArrayList<>();
 
         // Insert Code here
